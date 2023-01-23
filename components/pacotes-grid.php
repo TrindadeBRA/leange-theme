@@ -2,8 +2,8 @@
     <?php foreach ($args["wpquery"] as $pct){ ?>
         <div class="one-third column">
             <?php
-                $allfields = get_fields($post_id);
                 $post_id = $pct->ID;
+                $allfields = get_fields($post_id);
                 $pct_name = $pct->post_title;
                 $checkin_date = get_field('data_de_check-in', $post_id);
                 $checkout_date = get_field('data_de_check-out', $post_id);
