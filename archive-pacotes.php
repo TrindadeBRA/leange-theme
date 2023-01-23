@@ -67,7 +67,7 @@ get_header();
 			<div class="section">
 				<div class="section_wrapper clearfix">
                     <img class="scale-with-grid img-center" src="https://pousadaleange.com.br/wp-content/uploads/2022/05/star.webp" alt="star" title="star" width="88" height="54">
-                    <h2 class="title-type">Feriadoss</h2>
+                    <h2 class="title-type">Feriados</h2>
                     <?php get_template_part( "components/pacotes-grid", null, ["wpquery" => $pct_feriados]  );?>
 				</div>
 			</div>
