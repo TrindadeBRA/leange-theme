@@ -252,5 +252,79 @@ box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.17);
   font-size: 10px;
 }
 
-/* Template Post Interno Pacote */
+/* New Home */
 
+.HSystemBox.custom {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.HSystemBox.custom .first-row {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.HSystemBox.custom .first-row label {
+  width: 100%;
+}
+
+.HSystemBox.custom .first-row input,
+.HSystemBox.custom .first-row select {
+  height: 35px!important;
+  border-radius: 10px!important;
+}
+
+.HSystemBox.custom .second-row {
+  width: 100%;
+}
+
+.HSystemBox.custom .second-row .book-cta {
+  width: 550px!important;
+  margin: 25px auto 0 auto!important;
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.avisos {
+  width: 550px!important;
+  margin: 5px auto 0 auto!important;
+}
+
+.b-radius-25 img {
+  border-radius: 25px!important;
+}
+
+.capslock {
+  text-transform: uppercase;
+}
+
+.c-green {
+  color: #9cba5b;
+}
+
+.filho-de-4-patas h2 {
+  font-size: 29px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.colecione-momentos h2 {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.colecione-momentos p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.icone-colecione img {
+  max-width: 200px!important;
+}
+/* New Home */
