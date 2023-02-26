@@ -82,3 +82,16 @@ function createPostTypePacotes() {
 	);
 }
 
+function insertPacotesInHome() {
+	$argsPacotes = array(
+        'post_type' => 'pacotes',
+        'numberposts' => 3,
+        'meta_key' => 'data_de_check-in',
+        'orderby' => 'meta_value_num',
+        'order' => 'ASC',
+    );
+	$pcts = get_posts($argsPacotes);
+	$html = get_template_part( "components/pacotes-grid", null, ["wpquery" => $pcts]  );
+    return $html;
+}
+add_shortcode( 'pacotes-home', 'insertPacotesInHome' );
